@@ -18,3 +18,19 @@ Html, four hour.
 12_linkz.html<br/>
 
 ─ Swish and Flick.
+
+
+- **Day 1**:
+
+Html,CSS, five hour.
+
+1_unorderedListz.html<br/>
+2_orderedListz.html<br/>
+3_exerciseZERO.html<br/>
+4_divNSpan.html<br/>
+5_semanticElementz.html<br/>
+6_iFrame.html<br/>
+7_internalCSS.html<br/>
+8_externalCSS.html<br/>
+
+─ Sunshine Daisies.
