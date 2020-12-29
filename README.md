@@ -5,11 +5,8 @@
 Html, four hour.
 
 1_firstPagelol.html
-
 2_tagz.html
-
 3_formOfthePage.html
-
 4_exercise_whoAmI.html
 
 5_headings.html
