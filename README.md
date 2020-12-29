@@ -4,26 +4,17 @@
 
 Html, four hour.
 
-1_firstPagelol.html
-2_tagz.html
-3_formOfthePage.html
-4_exercise_whoAmI.html
-
-5_headings.html
-
-6_paragraph.html
-
-7_textTagz.html
-
-8_imagez.html
-
-9_formz.html
-
-10_exercise_Form.html
-
-11_tablez.html
-
-12_linkz.html
-
+1_firstPagelol.html<br/>
+2_tagz.html<br/>
+3_formOfthePage.html<br/>
+4_exercise_whoAmI.html<br/>
+5_headings.html<br/>
+6_paragraph.html<br/>
+7_textTagz.html<br/>
+8_imagez.html<br/>
+9_formz.html<br/>
+10_exercise_Form.html<br/>
+11_tablez.html<br/>
+12_linkz.html<br/>
 
 ─ Swish and Flick.
