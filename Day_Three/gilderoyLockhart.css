@@ -1,0 +1,19 @@
+div{
+    color: blue;
+    font-weight: bold;
+}
+a{
+    font-weight: bold;
+}
+h2{
+    font-style: italic;
+}
+span{
+    color: crimson;
+}
+p{
+    width: 50%;
+}
+li{
+    text-decoration: line-through;
+}
