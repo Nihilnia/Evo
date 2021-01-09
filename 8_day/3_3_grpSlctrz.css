@@ -1,0 +1,53 @@
+/* 
+
+1- Tüm etiketleri seçme (*) 
+2- Bir etiketi seçme (p)
+3- Bir etiketin altındaki spesifik bir etiketi seçme (div p)
+4- Birden fazla etiketi seçme (div, p)
+5- Üst etiketi spesifik olan etiketleri seçme (div> p)
+6- Aynı seviyedeki etiketleri seçme (div~ p)
+7- Bir etiketten sonra gelen aynı seviyedeki bir sonraki etiket (div+ p) 
+
+*/
+
+/* 1- Tüm etiketleri seçme (*)
+*{
+    background-color: palevioletred;
+}
+*/
+
+/* 2- Bir etiketi seçme (p)
+p{
+    background-color: violet;
+}
+*/
+
+/* 3- Bir etiketin altındaki spesifik bir etiketi seçme (div p)
+div p{
+    background-color: teal;
+}
+*/
+
+/* 4- Birden fazla etiketi seçme (div, p)
+div, p, span{
+    font-weight: 900;
+}
+*/
+
+/* 5- Üst etiketi spesifik olan etiketleri seçme (div> p)
+div> p{
+    background-color: red;
+}
+*/
+
+/* 6- Aynı seviyedeki etiketleri seçme (div~ p)
+span~ p{
+    background-color: red;
+}
+*/
+
+
+/* 7- Bir etiketten sonra gelen aynı seviyedeki bir sonraki etiket (div+ p)
+div+ p{
+    background-color: red;
+} */
