@@ -1,0 +1,33 @@
+/* Direkt attribute ile seçme */
+
+p[title]{
+    border: blueviolet solid 2px;
+    padding: 5px;
+}
+
+/* Attribute' u kelime ile seçme */
+p[title="Nihil"]{
+    background-color: gold;
+
+}
+
+/* Attribute içinde geçmesi gereken kelime ile seçme */
+p[title~="Nih"]{
+    background-color: darkblue;
+}
+
+/* Attribute isminin başında bulunması gereken kelime ile seçme */
+p[title^="Nih"]{
+    font-weight: bolder;
+}
+
+/* Attribute isminin sonunda bulunması gereken kelime ile seçme */
+p[title$="hil"]{
+    border: green solid 2px;
+}
+
+/* Birden fazla attribute belirterek seçme */
+
+div[title][id]{
+    background-color: hotpink;
+}
