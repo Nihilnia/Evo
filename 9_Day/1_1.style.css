@@ -31,3 +31,28 @@ p[title$="hil"]{
 div[title][id]{
     background-color: hotpink;
 }
+
+/* Ayrıca (elbette) spesifik değer belirleyebiliyoruz.
+Programcı insanlar zeki oldukları için birçok olasılığı düşünürler, düşünmüşler.
+Her. ZAmanki. Gibi.
+Fuckin love it. */
+
+div[title][id="Deneme"]{
+    font-weight: bold;
+}
+
+/* anotha one */
+
+div[id="NihilDvi"]{
+    background-color: chartreuse;
+}
+
+input[type="text"]{
+    background-color: brown;
+}
+
+input[value="Subbbbbmmmmiiitt"]{
+    font-weight: bold;
+    padding: 20px 10px; 
+    /* ugly tho */
+}
