@@ -1,0 +1,28 @@
+p::first-line{
+    background-color: blueviolet;
+}
+
+p[id] {
+    background-color: brown;
+}
+
+p[id="Nihil"]{
+    border: chartreuse solid 2px;
+}
+
+
+*::first-letter{
+    font-size: 50px;
+}
+
+ul li:first-child{
+    border: blue 2px solid;
+}
+
+body{
+    background-color: #2f3437;
+}
+
+img{
+    padding-left: 70px;
+}
