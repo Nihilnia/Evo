@@ -1,0 +1,19 @@
+p{
+    color:green;
+}
+
+div li{
+    background-color: red;
+}
+
+ul li{
+    background-color: hotpink;
+}
+
+ol> li{
+    background-color: green;
+}
+
+p~ div{
+    border: 2px red solid;
+}
