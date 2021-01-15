@@ -1,0 +1,26 @@
+body{
+    color: chocolate;
+}
+
+a{
+    color: inherit;
+}
+
+a:link{
+    background-color: cornflowerblue;
+    color: inherit;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+/*  */

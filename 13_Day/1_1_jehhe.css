@@ -1,0 +1,70 @@
+div:hover{
+    background-color: blue;
+}
+
+body{
+  color: blueviolet;
+  font-weight: bold;
+  background-color: black;
+}
+
+span{
+  font-weight: normal;
+  border: blue 2px solid;
+  background-color: coral;
+  color: black;
+}
+
+span span{
+  border: red 2px solid;
+}
+
+a:link{
+    color:inherit;
+  }
+  a:visited{
+    color: inherit;
+  }
+  a:active{
+    color: red;
+  }
+  a:hover{
+    color: brown;
+  }
+
+
+/* Example for group selectors */
+div a{
+    border: red 2px solid;
+}
+
+/* Example for Attribute selectors */
+a[id="212"]{
+    font-weight: bold;
+}
+
+/* Example for pseudo selectors */
+div::first-letter{
+    font-size: 100px;
+}
+
+/* Example for Group- Attribute and Pseudo */
+
+div[id="Nihil"] div[id="runBoyRun"]::first-line{
+  background-color: crimson !important;
+}
+
+#theLastOne div::first-letter{
+  font-weight: normal;
+}
+
+.lastExample::first-letter{
+  font-weight: normal;
+  font-size: 15px;
+}
+
+
+.lastExample{
+  font-weight: normal;
+  color: red;
+}

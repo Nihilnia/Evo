@@ -1,0 +1,27 @@
+thead{
+    background-color: #1690f8;
+    border: white 1px solid;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ffffff;
+}
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+td{
+    padding: 12px;
+}
+/* table{
+    border: white 1px solid;
+} */
+
+thead td{
+    font-weight: bold;
+    color: white;
+}
+
+tbody{
+    border: gray 1px solid;
+}
