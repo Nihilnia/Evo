@@ -1,0 +1,13 @@
+.imgg {
+  position: absolute;
+  left: 500px;
+  top: 600px;
+}
+
+.imgg:active {
+  position: absolute;
+  left: 600px;
+  top: 700px;
+}
+
+.imgg: ;

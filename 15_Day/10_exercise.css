@@ -1,0 +1,41 @@
+#images div {
+  display: inline;
+}
+
+img {
+  width: 1100px;
+}
+
+.imgg1 {
+  position: absolute;
+  left: 100px;
+}
+.imgg2 {
+  position: absolute;
+  left: 200px;
+}
+.imgg3 {
+  position: absolute;
+  left: 300px;
+}
+.imgg4 {
+  position: absolute;
+  left: 400px;
+}
+
+.imgg4:hover {
+  background-color: aqua;
+  opacity: 0;
+}
+.imgg3:hover {
+  background-color: aqua;
+  opacity: 0;
+}
+.imgg2:hover {
+  background-color: aqua;
+  opacity: 0;
+}
+.imgg1:hover {
+  background-color: aqua;
+  opacity: 0;
+}

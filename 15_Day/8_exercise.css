@@ -1,0 +1,30 @@
+#first {
+  background: #9ab256;
+}
+
+#second {
+  background: #4c7fc3;
+}
+
+#third {
+  background: #826aa6;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 55px;
+  bottom: 100px;
+}
+
+div[id="container"] div {
+  width: 85px;
+  height: 76px;
+  margin: 15px;
+  border: 2px solid black;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#container {
+  border: black 2px solid;
+  width: 500px;
+}

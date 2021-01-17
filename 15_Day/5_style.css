@@ -1,0 +1,21 @@
+#container {
+  width: 1440px;
+}
+
+.others {
+  width: 25%;
+  float: left;
+  background-color: gray;
+}
+
+.blogPost-container {
+  width: 75%;
+  height: auto;
+  float: left;
+  background-color: red;
+}
+
+#author {
+  border: 1px black solid;
+  background-color: saddlebrown;
+}
