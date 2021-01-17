@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #3385ff;
+  color: whitesmoke;
+  text-align: left;
+}
+
+table th,
+table td {
+  border: 1px solid #9494b8;
+  padding: 7px;
+}
+/* tbody tr:nth-child(even){
+    background-color: #;
+} */
+
+tbody tr:hover {
+  background-color: #b8b8b8;
+}
+
+.tableGREEN thead {
+  background-color: green;
+}
+
+.tableGREEN tbody tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+.tableBLUE tbody tr:nth-child(even) {
+  background-color: #b8b8b8;
+}
+
+.imag {
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.tableGREEN {
+  background-color: aqua;
+}
+
+.deneBisiler {
+  background-color: red;
+}
+
+#nihilnia {
+  color: red;
+}
