@@ -1,0 +1,29 @@
+.boxes {
+  width: 120px;
+  height: 120px;
+}
+
+#box1 {
+  background-color: red;
+  padding-right: 150px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+#box2 {
+  background-color: royalblue;
+  padding: 50px;
+  padding-right: 100px;
+  margin: auto;
+}
+
+span {
+  background-color: salmon;
+  display: block;
+  padding: auto;
+}
+
+#container {
+  width: 200px;
+  margin: auto;
+}

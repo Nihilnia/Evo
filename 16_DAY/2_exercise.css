@@ -1,0 +1,46 @@
+#container {
+  border: 2px blue solid;
+  width: 1440px;
+}
+
+.otherPosts {
+  width: 25%;
+  float: left;
+  position: fixed;
+  top: 20;
+  right: 0;
+  background-color: gray;
+}
+
+.blogPost-container {
+  width: 75%;
+  float: left;
+  background-color: red;
+}
+
+#author {
+  border: 1px black solid;
+  background-color: saddlebrown;
+  font-weight: bolder;
+}
+
+.tagz li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tagz {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blogPost {
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  left: 500px;
+  top: 0;
+}

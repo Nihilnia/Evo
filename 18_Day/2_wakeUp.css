@@ -1,0 +1,18 @@
+#greenBox {
+  width: 300px;
+  height: 100px;
+  background-color: green;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: black 5px solid;
+  box-sizing: content-box;
+}
+
+#yellowBox {
+  width: 300px;
+  height: 100px;
+  background-color: gold;
+  padding: 10px;
+  border: black 5px solid;
+  box-sizing: border-box;
+}

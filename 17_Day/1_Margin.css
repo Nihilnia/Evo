@@ -1,0 +1,48 @@
+.box {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 50px;
+}
+
+#box1 {
+  background-color: red;
+}
+
+#box2 {
+  background-color: green;
+}
+
+#box3 {
+  background-color: blue;
+  margin-top: 500px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  background-color: salmon;
+  margin: auto;
+}
+
+span {
+  background-color: violet;
+  display: inline-block;
+  margin: auto;
+}
+
+#asd {
+  background-color: tomato;
+  width: 200px;
+  height: 200px;
+  margin: 125px 130px;
+}
+
+/* Social Distance */
+
+#mySelf {
+  margin: 2000px;
+}

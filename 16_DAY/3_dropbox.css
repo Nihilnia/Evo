@@ -1,0 +1,32 @@
+#first {
+  background: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#second {
+  background: blue;
+  position: absolute;
+  left: 300px;
+}
+#third {
+  background: green;
+  position: relative;
+  left: 550px;
+}
+
+#container {
+  background: yellow;
+  overflow: auto;
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  right: 0;
+  top: 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}

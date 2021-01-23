@@ -1,0 +1,13 @@
+#blogPostScreen {
+  border: black 2px solid;
+  width: 74%;
+}
+
+#rightPostScreen {
+  width: 24%;
+  border: red 2px solid;
+}
+
+.container {
+  display: inline-block;
+}
