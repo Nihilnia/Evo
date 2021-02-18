@@ -1,0 +1,65 @@
+.class1 {
+  background-color: blue;
+}
+
+.class2 {
+  color: red;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 5px;
+  border: none;
+}
+
+.deneme {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+a {
+  display: inline-block;
+  background-color: red;
+}
+
+#cont {
+  display: block;
+}
+
+.asdf {
+  font-size: 50px;
+}
+
+hr {
+  height: 7px;
+  background-color: black;
+}
+
+.btnX {
+  font-family: "Yusei Magic", sans-serif;
+  background: none;
+  border: black 1px solid;
+}
+
+.btnX:first-child {
+  margin-left: 10px;
+}
+
+.contX {
+  margin: auto;
+  width: 30%;
+  border: 2px solid black;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+}

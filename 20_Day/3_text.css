@@ -1,0 +1,21 @@
+#container {
+  position: fixed;
+  background-image: url("img/joeBarbaro.jpg");
+  width: 1200px;
+  height: 800px;
+  margin: 50px 300px;
+}
+
+.Quote {
+  font-family: "Anton", sans-serif;
+  font-size: 70px;
+  position: fixed;
+  top: 350px;
+  left: 360px;
+  line-height: 80px;
+  color: aliceblue;
+}
+
+body {
+  background-color: black;
+}

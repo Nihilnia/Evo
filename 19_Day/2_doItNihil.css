@@ -1,0 +1,19 @@
+#container {
+  width: 90%;
+  border: black 2px solid;
+  margin-left: 50px;
+}
+
+#leftSide {
+  width: 49%;
+  background-color: red;
+}
+#rightSide {
+  width: 49%;
+  background-color: green;
+  margin-left: 30px;
+}
+
+.boxeZ {
+  display: inline-block;
+}

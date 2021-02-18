@@ -1,0 +1,40 @@
+#container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+#first {
+  text-align: center;
+}
+#second {
+  text-align: right;
+}
+#third {
+  text-align: left;
+  column-count: 3;
+  column-rule: black 2px solid;
+}
+#fourth {
+  text-align: justify;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#container div {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: aliceblue;
+}
+
+#container div::first-letter {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+body {
+  background-color: black;
+}

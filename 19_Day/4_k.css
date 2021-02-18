@@ -1,0 +1,44 @@
+#leftSide {
+  width: 65%;
+  position: absolute;
+}
+
+#rightSide {
+  width: 25%;
+  border: red 2px solid;
+  position: sticky;
+  top: 1100px;
+  margin-left: 1300px;
+}
+
+.rightPost {
+  margin-left: 15px;
+}
+
+.leftPost {
+  background-color: gray;
+  border: black 2px solid;
+  margin-bottom: 5px;
+}
+
+.commPosts {
+  display: inline-block;
+}
+
+#imgMv {
+  width: 600px;
+}
+
+#dateTime {
+  float: right;
+}
+
+#header {
+  background-color: aqua;
+  position: sticky;
+  top: 0px;
+}
+
+.hB {
+  margin-left: 750px;
+}

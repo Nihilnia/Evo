@@ -1,0 +1,16 @@
+#leftSide {
+  width: 65%;
+  height: 200px;
+  background-color: red;
+}
+
+#rightSide {
+  width: 25%;
+  height: 200px;
+  background-color: black;
+}
+
+.xxa {
+  display: inline-block;
+  margin-top: 10px;
+}

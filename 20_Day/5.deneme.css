@@ -1,0 +1,73 @@
+#container {
+  width: 85%;
+  margin: 50px auto;
+  margin-left: 270px;
+}
+
+.commPostez {
+  display: inline-block;
+}
+
+#leftSide {
+  width: 55%;
+  font-family: "Bebas Neue", cursive;
+}
+
+.lsPost {
+  border: 1px black solid;
+  border-radius: 1%;
+  margin-bottom: 5px;
+  background-color: wheat;
+  text-align: center;
+}
+
+.lsPost div::first-letter {
+  font-size: 50px;
+}
+
+.lsPost h2 {
+  text-align: center;
+}
+
+.lsPost img {
+  width: 100%;
+}
+
+.colText {
+  column-count: 3;
+  column-rule: 2px black solid;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#rightSide {
+  width: 20%;
+  background-color: wheat;
+  position: absolute;
+  border: black 1px solid;
+  margin-left: 15px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.rsPost h3 {
+  text-align: center;
+}
+
+.rsPost img {
+  width: 100%;
+}
+
+.rsPost {
+  text-align: center;
+}
+
+body {
+  background-image: url("img/bg.jpg");
+}
+
+body h1 {
+  text-align: center;
+  font-family: "Coda Caption", sans-serif;
+  color: azure;
+  font-weight: 800;
+}

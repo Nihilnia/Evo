@@ -1,0 +1,46 @@
+#container {
+  width: 1500px;
+  margin: 50px auto;
+  background-color: black;
+}
+
+.commPostez {
+  display: inline-block;
+}
+
+#leftSide {
+  width: 60%;
+  border: 1px solid wheat;
+  padding: 0 20px;
+}
+
+.lsPost {
+  margin-bottom: 50px;
+  background-color: wheat;
+}
+
+.lsPost img {
+  width: 100%;
+  border-radius: 1%;
+}
+
+.rsPost {
+  margin-bottom: 50px;
+  background-color: wheat;
+}
+
+.lsPost h2 {
+  text-align: center;
+}
+
+#rightSide {
+  width: 20%;
+  border: 1px solid wheat;
+  padding: 10px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+body {
+  background-image: url("img/12.jpg");
+}

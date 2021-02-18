@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            transition: width 1s, height 1s, background-color 1s;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        div:hover {
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            transition-delay: 1s;
+        }
+
+
+        /* Default (Yavaş başla - hızlan - sona doğru yavaşla) */
+        #card1 {
+            transition-timing-function: ease;
+        }
+
+        /* Aynı seviyede art. */
+        #card2 {
+            transition-timing-function: linear;
+        }
+
+        /* Yavaş başla - hızlan. */
+        #card2 {
+            transition-timing-function: ease-in;
+        }
+
+        /* Hızlı başla - yavaşla. */
+        #card2 {
+            text-align: center;
+            color: white;
+            transition-timing-function: ease-out;
+        }
+
+        /*  Yavaş başla - hızlan - yavaşla*/
+        #card2 {
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card1"></div>
+    <div id="card2">Card 2</div>
+    <div id="card3"></div>
+    <div id="card4"></div>
+    <div id="card5"></div>
+
+</body>
+
+</html>

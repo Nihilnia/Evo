@@ -1,0 +1,37 @@
+#aaab {
+  width: 80%;
+}
+
+.bv {
+  display: inline-block;
+}
+
+#wholeProject1 {
+  background-color: gray;
+  width: 50%;
+  margin-right: 0;
+}
+
+#wholeProject2 {
+  background-color: gray;
+  width: 49%;
+  margin-left: 0;
+}
+
+.common {
+  display: inline-block;
+}
+
+/* Left Side */
+#leftSide {
+  border: black 2px solid;
+  width: 55%;
+  background-color: aqua;
+}
+
+/* Right Side */
+#rightSide {
+  border: black 2px solid;
+  width: 35%;
+  background-color: red;
+}
