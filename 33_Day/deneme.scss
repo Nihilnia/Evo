@@ -1,0 +1,30 @@
+@import "background";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+$damn: #2f3437;
+.navigation {
+  list-style: none;
+  background-color: $damn;
+  text-align: center;
+  width: 400px;
+
+  li {
+    display: inline-block;
+    margin-left: 20px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: green;
+    }
+  }
+}

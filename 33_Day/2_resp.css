@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* --Header-- */
+
+header {
+  height: 40rem;
+  font-size: 2rem;
+}
+
+#headerImg {
+  background-image: url(img/deer.jpg);
+  width: 100%;
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+#headerContent {
+  color: black;
+  padding-top: 16rem;
+}
+
+.btnMore {
+  border: wheat 2px solid;
+  padding: 0.2rem 2rem;
+  background-color: gray;
+  transition: background-color 0.5s;
+}
+
+.btnMore:hover {
+  background-color: black;
+}
+
+/* Section A-- */
+#sectionA {
+  padding: 6rem 2rem;
+  height: 20rem;
+}
+
+/* Section B-- */
+
+.col img {
+  width: 100%;
+}

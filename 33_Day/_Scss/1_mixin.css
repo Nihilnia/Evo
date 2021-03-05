@@ -1,0 +1,28 @@
+#box1 {
+  width: 100px;
+  height: 200px;
+  background-color: blue;
+  border: black 1px solid;
+  float: left;
+  margin-left: 10px;
+  margin-left: 0;
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: black 1px solid;
+  float: left;
+  margin-left: 10px;
+}
+
+#box3 {
+  width: 300px;
+  height: 200px;
+  background-color: orange;
+  border: black 1px solid;
+  float: left;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=1_mixin.css.map */

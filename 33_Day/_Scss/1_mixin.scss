@@ -1,0 +1,19 @@
+@mixin Nihil($color, $width) {
+  width: $width;
+  height: 200px;
+  background-color: $color;
+  border: black 1px solid;
+  float: left;
+  margin-left: 10px;
+}
+
+#box1 {
+  @include Nihil(blue, 100px);
+  margin-left: 0;
+}
+#box2 {
+  @include Nihil(green, 200px);
+}
+#box3 {
+  @include Nihil(orange, 300px);
+}
