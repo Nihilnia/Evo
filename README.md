@@ -20,7 +20,7 @@ Html, four hour.
 ─ Swish and Flick.
 
 
-- **Day 1**:
+- **Day 2**:
 
 Html,CSS, five hour.
 
@@ -34,3 +34,14 @@ Html,CSS, five hour.
 8_externalCSS.html<br/>
 
 ─ Sunshine Daisies.
+
+
+- **Day 37**:
+
+Started to JS, two hours spent.
+
+_Enter the JS.
+_Variables.
+_Variable typez.
+
+─ "The Return".
