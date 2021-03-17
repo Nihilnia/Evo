@@ -41,8 +41,8 @@ Html,CSS, five hour.
 
 Started to JS, two hours spent.
 
-_Enter the JS.
-_Variables.
-_Variable typez.
+_Enter the JS.<br/>
+_Variables.<br/>
+_Variable typez.<br/>
 
 ─ "The Return".
