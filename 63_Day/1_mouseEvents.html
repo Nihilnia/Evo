@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: nierFont;
+            src: url(./fonts/ITC\ Benguiat\ Book.ttf);
+        }
+
+        body {
+            background-color: #0c0c0d;
+        }
+
+        #container {
+            border: 1px solid lightblue;
+        }
+
+        .list-group {
+            margin-top: 500px;
+        }
+
+
+        /* img {
+            margin-top: 500px;
+            width: 50%;
+            opacity: 1;
+            position: relative;
+        } */
+
+        #A2 {
+            border: white 1px solid;
+            border-radius: 5px;
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0.4)),
+                url(./img/A2.gif);
+            background-size: cover;
+            width: 300px;
+            height: 169px;
+            margin-top: 500px;
+            position: relative;
+            float: left;
+        }
+
+        h2 {
+            font-family: nierFont;
+            font-weight: 999;
+            color: white;
+            text-transform: uppercase;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 2rem;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <button type="button" id="btnClick" class="btn btn-primary">Click</button>
+        <button type="button" id="btnDblClick" class="btn btn-secondary">Double Click</button>
+        <button type="button" id="btnDown" class="btn btn-success">Mouse Down</button>
+        <button type="button" id="btnUp" class="btn btn-danger">Mouse Up</button>
+        <button type="button" id="btnEnter" class="btn btn-warning">Mouse Enter</button>
+        <button type="button" id="btnLeave" class="btn btn-info">Mouse Leave</button>
+        <button type="button" id="btnOver" class="btn btn-light">Mouseover</button>
+        <button type="button" id="btnOut" class="btn btn-dark">Mouseout</button>
+    </div>
+
+
+    <div id="A2">
+        <h2>Example</h2>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <script src="1_script.js"></script>
+</body>
+
+</html>
