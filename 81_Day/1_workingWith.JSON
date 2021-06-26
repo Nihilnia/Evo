@@ -1,0 +1,9 @@
+{
+    "employees": [
+        {"firstName": "Gloria", "lastName": "Nia", "retired": false},
+        {"firstName": "Nihil", "lastName": "Nia", "retired": false},
+        {"firstName": "Molotov", "lastName": "Karmara", "retired": true},
+        {"firstName": "Stressed Out", "lastName": "Twenty One Pilots", "retired": false},
+        {"firstName": "Sonne", "lastName": "Rammstein", "retired": true}
+    ]
+}
