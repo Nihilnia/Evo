@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="/JQuery Api/jquery-3.6.0.min.js"></script>
+    <style>
+        @font-face {
+            font-family: "workHardNihil";
+            src: url("/fontZ/Gotham-XLight.otf");
+        }
+
+        #_Gloria {
+            color: whitesmoke;
+            font-family: "workHardNihil";
+        }
+
+        body {
+            background-color: #0c0c0d;
+        }
+
+        .card {
+            width: 200px;
+            float: left;
+            height: 400px;
+        }
+
+        .card img {
+            width: 700px;
+            height: 40%;
+        }
+
+        #carouselExampleIndicators {
+            margin: 10px auto;
+            width: 40%;
+            height: 40%;
+        }
+
+        .displayIt {
+            display: block;
+        }
+
+        .carousel-item img {
+            width: 40%;
+        }
+
+        #tagButtons {
+            text-align: center;
+        }
+
+        #contentContainer {
+            margin: 10px auto;
+            width: 75%;
+            display: grid;
+            grid-template-columns: 500px 500px 500px;
+            grid-template-rows: 500px 500px 500px;
+            grid-row-gap: -50px;
+            grid-column-gap: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h1 id="_Gloria">Work Hard Nihil!</h1> -->
+
+    <div id="tagButtons">
+        <button type="button" id="Portrait" class="btn btn-primary btnTag">Portrait</button>
+        <button type="button" id="Fashion" class="btn btn-secondary btnTag">Fuck Fashion </button>
+        <button type="button" id="Sports" class="btn btn-success btnTag">Sports</button>
+        <button type="button" id="Architect" class="btn btn-danger btnTag">Architect</button>
+        <button type="button" id="Nature" class="btn btn-warning btnTag">Nature</button>
+        <button type="button" id="Animals" class="btn btn-info btnTag">Animals</button>
+        <button type="button" id="Sky" class="btn btn-light btnTag">Sky</button>
+        <button type="button" id="Space" class="btn btn-dark btnTag">Space</button>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators" id="btnBottom">
+
+        </div>
+        <div class="carousel-inner" id="picPlace">
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div id="contentContainer">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
